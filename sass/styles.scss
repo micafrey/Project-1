@@ -1,9 +1,11 @@
+$font-main: 'Lato', sans-serif;
 
 body {
     background-color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: $font-main;
     color: black;
     font-size: 62.5%;
     width: 1190px;
     margin: 0 auto;
+    
 }
