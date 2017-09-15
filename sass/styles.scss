@@ -1,4 +1,5 @@
 $font-main: 'Lato', sans-serif;
+$no: none;
 
 body {
     background-color: white;
@@ -9,14 +10,26 @@ body {
     margin: 0 auto;
 }
 
+
+.description p {
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
 header {
     margin: 0 auto;
-    background-color: F6F6F6;
+    background-color: #F6F6F6;
+}
+
+.head {
+    background-color: #F6F6F6;
+    margin-bottom: 100px;
+    display: block;
 }
 
 th {
     color: #B26D80;
-    text-decoration: none;
+    text-decoration: $no;
     font-size: 2.8em;
     text-align: center
 }
@@ -26,6 +39,16 @@ h1 {
     line-height: .6em;
 }
 
+h2 {
+    font-size: 4.0em;
+    line-height: 0em;
+}
+
+h3 {
+    font-size: 2em;
+    color: #AFAFAF;
+    line-height: 1em;
+}
 .name {
     margin-left: 20px;
     margin-top: -25px;
@@ -62,6 +85,11 @@ td p {
     margin-bottom: 20px;
 }
 
+td a {
+    color: #787878;
+    text-decoration: $no;
+}
+
 tr img {
     margin-right: 24px;
 }
@@ -75,11 +103,11 @@ footer {
     font-weight: bold;
     float: left;
     margin-top: 100px;
-    text-decoration: none;
+    text-decoration: $no;
     font-size: 1.8em;
 }
 
 .back a {
-     text-decoration: none;
+     text-decoration: $no;
      color: #B26D80;
 }
